@@ -1,8 +1,11 @@
+.bg{
+    background-color: black;
+}
 .display-flex{
     display: flex;
 }
 .bg1{
-    background-color: rgba(57, 55, 55, 0.048);
+    background-color: rgba(57, 55, 55, 0.47);
 }
 /* nav-style */
 .nav-bar{
@@ -22,6 +25,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 400;
+    color: white;
 }
 .nav-links{
     border: 1px solid rgb(162, 160, 160);
@@ -38,4 +42,87 @@
     background: rgba(230, 83, 60, 1);
     margin-left: -35px;
     color: white;
+}
+/* header */
+.header{
+    justify-content: center;
+    align-items: center;
+    gap: 87.95px;
+}
+.header-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 78px;
+    font-weight: bold;
+}
+.grey-qo-regular {
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+.header-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -70px;
+}
+.btn{
+    height: 54px;
+    width: 224px;
+    border-radius: 42px;
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.btn1{
+    height: 54px;
+    width: 224px;
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: rgba(12, 12, 12, 0.037);
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+/* change-section */
+.change{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.change-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.change-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -25px;
+}
+.chng-box{
+    color: white;
+    /* margin-top: -5px; */
+}
+.change-description1{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -15px;
+}
+.img-item{
+    border-radius: 50%;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 576px) {
+    .nav-bar,
+    .nav-link,
+    .header{
+        flex-direction: column;
+    }
 }
