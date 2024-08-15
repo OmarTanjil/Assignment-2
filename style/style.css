@@ -150,7 +150,7 @@
 @media screen and (max-width: 576px) {
     .nav-bar,
     .nav-link,
-    .header
+    .header,
     .run{
         flex-direction: column;
     }
