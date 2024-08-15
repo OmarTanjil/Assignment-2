@@ -17,6 +17,9 @@
     font-size: 2.5rem;
     color: rgba(230, 83, 60, 1)
 }
+.fa-bars{
+   display: none;
+}
 .nav-item{
     list-style: none;
     margin-right: 30px;
@@ -48,6 +51,9 @@
     justify-content: center;
     align-items: center;
     gap: 87.95px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 }
 .header-title{
     color: rgba(255, 255, 255, 1);
@@ -138,7 +144,7 @@
 .run-description{
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
 }
 .run-img{
     border-radius: 18px;
@@ -157,7 +163,8 @@
     .img-container{
         grid-template-columns: repeat(1, 1fr);
     }
-    .run{
+    .run,
+    .header{
         height: 100%;
         width: 100%;
         margin: auto;
@@ -174,5 +181,8 @@
         align-items: center;
         margin-left: -10%;
         gap: 200px;
+    }
+    #btn{
+        display: flex;
     }
 }
