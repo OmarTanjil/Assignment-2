@@ -54,12 +54,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 87.95px;
-    padding: 20px 0px 20px;
-    height: 100%;
-    width: 100%;
+    gap: 160px;
+    height: 715px;
+    width: 1440px;
 }
 .header-title{
     color: rgba(255, 255, 255, 1);
@@ -68,7 +65,9 @@
 }
 .header-container{
     text-align: left;
-    /* margin-left: -350px; */
+    margin-left: -350px;
+    display: inline;
+    unicode-bidi: normal;
 }
 .grey-qo-regular {
     font-family: "Grey Qo", cursive;
@@ -81,6 +80,10 @@
     font-size: 1rem;
     font-weight: 400;
     margin-top: -70px;
+}
+.header-img{
+    padding-right: 5px;
+    position: relative;
 }
 .btn{
     height: 54px;
@@ -181,8 +184,6 @@
 }
 /* run-section */
 .run{
-    height: 371px;
-    width: 1060px;
     background-color: rgba(34, 34, 34, 1);
     border-radius: 18px;
     justify-content: center;
@@ -215,6 +216,8 @@
     border-radius: 18px;
 }
 .meet{
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -256,22 +259,28 @@
 }
 /* footer */
 .foot{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
-   
     margin-top: 40px;
+    padding: 10px 0px 10px;
 }
 .foot1{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 0px 10px;
-    margin: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* gap: 102px; */
 }
 .p1title{
     color: rgba(230, 83, 60, 1);
     font-size: 4.2rem;
     font-weight: bolder;
-    padding: 10px;
     margin-top: auto;
+    text-align: left;
+    margin-left: auto;
 }
 .p1des{
     color: rgba(255, 255, 255, 0.5);
@@ -283,6 +292,8 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
+    text-align: left;
+    margin-left: auto;
 }
 .p2des{
     color: rgba(255, 255, 255, 0.5);
@@ -323,10 +334,16 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .run,
+    .header,
+    .img-box,
     .header{
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
         margin: auto;
+    }
+    .header-container,
+    .nav-bar{
+        margin-left: auto;
     }
     .fa-bars{
         color: white;
@@ -340,6 +357,9 @@
         align-items: center;
         margin-left: -10%;
         gap: 200px;
+    }
+    #line{
+        width: auto;
     }
    
 }
