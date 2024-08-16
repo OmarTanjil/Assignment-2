@@ -358,6 +358,14 @@
         margin-left: -10%;
         gap: 200px;
     }
+    .part{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .foot1{
+        margin-left: 25px;
+        justify-content: center;
+    }
     #line{
         width: auto;
     }
